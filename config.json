@@ -1,0 +1,18 @@
+{
+    "project_id": "covid-19-data-analysis-proj",
+    "datasets": {
+      "owid": {
+        "dataset_name": "owid_covid_data",
+        "table_name": "owid_data"
+      },
+      "jhu": {
+        "dataset_name": "jhu_time_series_data",
+        "table_name": "jhu_data"
+      },
+      "merged": {
+        "dataset_name": "merged_covid_data",
+        "table_name": "merged_data"
+      }
+    }
+  }
+  

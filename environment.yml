@@ -1,0 +1,30 @@
+name: covid19-data-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - plotly
+  - dash
+  - jupyter-dash
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - pip
+  - pip:
+      - gunicorn
+      - pyngrok
+      - ipywidgets
+      - folium
+      - geopandas
+      - pandas-gbq
+      - google-cloud-bigquery
+      - google-auth
+      - google-colab
+      - flask>=2.0.0
+      - flask_caching
+      - jinja2>=2.11.3
